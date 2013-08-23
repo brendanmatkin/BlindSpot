@@ -10,4 +10,4 @@ The installation includes 96 individual plastic shutters surrounding a vehicle i
 Requirements
 ------------
 
-The arduino code is written for the Adafruit 16-channel 12-bit PWM I2C Servo Driver (http://www.adafruit.com/products/815) and uses their library which can be found at adafruit/Adafruit-PWM-Servo-Driver-Library. 
+The arduino code is written for the Adafruit 16-channel 12-bit PWM I2C Servo Driver (http://www.adafruit.com/products/815) and uses their library which can be found [here](http://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library. )
