@@ -10,12 +10,12 @@ The installation includes 96 individually-swivelling motion-detecting plastic sh
 Requirements
 ------------
 
-[Adafruit 16-channel 12-bit PWM I2C Servo Driver](http://www.adafruit.com/products/815). The Adafruit library can be found [here](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) 
-Processing 2.0.1 
-Arduino Uno 
-Low-power micro servo such as the HXT-900 or SG92R 
-High-current, 5V power suplly (>20A for ~100 servos)
-Webcams
+*[Adafruit 16-channel 12-bit PWM I2C Servo Driver](http://www.adafruit.com/products/815). The Adafruit library can be found [here](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) 
+*Processing 2.0.1 
+*Arduino Uno 
+*Low-power micro servos such as the HXT-900 or SG92R 
+*High-current, 5V power suplly (>20A for ~100 servos)
+*USB Webcams
 
 
 Hints
