@@ -10,11 +10,12 @@ The installation includes 96 individually-swivelling motion-detecting plastic sh
 Requirements
 ------------
 
-[Adafruit 16-channel 12-bit PWM I2C Servo Driver](http://www.adafruit.com/products/815) and uses their library which can be found [here](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library)
-Processing 2.0.1
-Arduino Uno
-Low-power micro servo such as the HXT-900 or SG92R
+[Adafruit 16-channel 12-bit PWM I2C Servo Driver](http://www.adafruit.com/products/815). The Adafruit library can be found [here](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) 
+Processing 2.0.1 
+Arduino Uno 
+Low-power micro servo such as the HXT-900 or SG92R 
 High-current, 5V power suplly (>20A for ~100 servos)
+Webcams
 
 
 Hints
@@ -25,3 +26,6 @@ I2C is meant for very short runs, yet each run in this installation isnearly 20 
 For a cheap (or free), high-current, 5v power supply, use an old ATX PSU. I used [this Instructable](http://www.instructables.com/id/Converting-a-computer-ATX-power-supply-to-a-really/?ALLSTEPS) as a reference. 
 
 I'm building the shutters out of my new favorite material: Komatex. It is expanded PVC. Super-light, easy to cut.
+
+I'm using 6 wide-angle generic webcams. The processing sketch uses the webcam's Friendly Names. If you are using Windows 7 or later (maybe vista), you will need to change the Friendly Names in the registry to unique values ie. "Webcam #1", "Webcam#2", etc. [Here is a tutorial](http://www.eightforums.com/customization/15321-tutorial-how-change-device-names-device-manager.html) on how to do it. 
+
