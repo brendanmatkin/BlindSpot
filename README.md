@@ -27,5 +27,5 @@ For a cheap (or free), high-current, 5v power supply, use an old ATX PSU. I used
 
 I'm building the shutters out of my new favorite material: Komatex. It is expanded PVC. Super-light, easy to cut.
 
-I'm using 6 wide-angle generic webcams. The processing sketch uses the webcam's Friendly Names. If you are using Windows 7 or later (maybe vista), you will need to change the Friendly Names in the registry to unique values ie. "Webcam #1", "Webcam#2", etc. [Here is a tutorial](http://www.eightforums.com/customization/15321-tutorial-how-change-device-names-device-manager.html) on how to do it. 
+I'm using 6 wide-angle generic webcams. The processing sketch uses the webcam's Friendly Names. If you are using Windows 7 or later (maybe vista), you will need to change the Friendly Names in the registry to unique values ie. "Webcam #1", "Webcam #2", etc. [Here is a tutorial](http://www.eightforums.com/customization/15321-tutorial-how-change-device-names-device-manager.html) on how to do it. 
 
