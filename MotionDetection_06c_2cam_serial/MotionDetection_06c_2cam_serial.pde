@@ -9,19 +9,19 @@ Serial myPort;      // define serial
 PImage background;    // define image to hold background data
 
 Region[] reg;                 // array for the motion detection regions
-float rCount = 32;             // # of regions (must equal # of shutters/servos)
-float threshold = 80;   // motion threshold
-int error = 25;          // # of pixels to ignore before detect - improves margin of error!
+float rCount = 96;             // # of regions (must equal # of shutters/servos)
+float threshold = 150;   // motion threshold
+int error = 50;          // # of pixels to ignore before detect - improves margin of error!
 
 boolean refresh = false;      // detect if there are too many colored pixels
 int refreshTest = 130000;    // 1300000 - 2cam, how many blue pixels to detect before refresh
 //int resetTime = 5000;         // how often to refresh the background automatically
 
-int camW = 176;          // cam width -  | 176 | 352 | 320 | 160 |
-int camH = 144;          // cam height - | 144 | 288 | 240 | 120 |
+int camW = 352;          // cam width -  | 176 | 352 | 320 | 160 |
+int camH = 288;          // cam height - | 144 | 288 | 240 | 120 |
 int camFR = 30;          // cam Frame Rate
 int numCam = 2;          // number of cameras
-int fR = 15;             // sketch frame rate
+int fR = 10;             // sketch frame rate
 
 float rWidth;                   // define motion detect region width
 color motionColor = color(0, 100, 150);
@@ -107,7 +107,7 @@ void draw() {
   comparePixels();           // compare and display results
   updatePixels();            // update the pixel array with single color results for region detection
   
-  if (frameRate > 10) {                 // only update if the sketch is surviving!
+  if (frameRate > 3) {                 // only update if the sketch is surviving!
     for (int i = 0; i < rCount; i++) {
       reg[i].update();                  // detect motion in each region independantly 
     }
