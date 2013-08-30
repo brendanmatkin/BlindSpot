@@ -1,6 +1,6 @@
 // touchOSC CONTROLS (all in page one of "simple"):
 // fader 1 = motion threshold (0-300)
-// fader 2 = margin of error regional pixel-count threshold (0-200)
+// fader 2 = margin of error regional pixel-count threshold (0-150)
 // fader 3 = auto-refresh global pixel-count threshold (0-2,500,000)
 // toggle 1 = manual refresh
 
@@ -117,7 +117,7 @@ void draw() {
     threshold = v_fader1*300;
   }
   if (v_fader2 > 0.0) {             // touchOSC fader 2 = margin of error
-    error = int(v_fader2*200);
+    error = int(v_fader2*150);
   }
   if (v_fader3 > 0.0) {             // touchOSC fader 3 = refresh counter
     refreshTest = int(v_fader3*2500000);
