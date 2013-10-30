@@ -52,7 +52,7 @@ void setup() {
   pwm5.setPWMFreq(60);
   pwm6.setPWMFreq(60);
   
-  Serial.begin(115200);   // this to talk with processing
+  Serial.begin(9600);   // this to talk with processing
 }
 
 

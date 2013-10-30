@@ -80,6 +80,6 @@ void loop() {
   servonum ++;            // this stuff basically makes the whole sketch into a for loop... 
   if (servonum > 95) {
     servonum = 0;
-    ud = !ud;             // change direction..
+    //ud = !ud;             // change direction..
   }
 }
