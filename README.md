@@ -1,9 +1,9 @@
 BlindSpot
 =========
 
-A Processing- and Arduino-powered installation at Beakerhead. 
+A Processing- and Arduino-powered installation at Beakerhead. See it in action at [http://www.vimeo.com/brendanmatkin/blindspot](http://www.vimeo.com/brendanmatkin/blindspot).
 
-Blind Spot is being created specifically for [Beakerhead](http://beakerhead.org/) and is being funded by [Sunridge Nissan](http;//www.sunridgenissan.com) in Calgary, AB.
+Blind Spot was created specifically for [Beakerhead](http://beakerhead.org/) and was funded by [Sunridge Nissan](http://www.sunridgenissan.com) in Calgary, AB.
 
 The installation includes 96 individually-swivelling motion-detecting plastic shutters surrounding a vehicle inside of a large showcase. 
 
